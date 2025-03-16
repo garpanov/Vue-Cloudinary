@@ -92,7 +92,7 @@ onMounted(async () => {
             <div class="hidden md:flex flex-col gap-4 mr-1 mt-1 sm:mr-1 md:mr-10 md:mt-10">
                 <cloud @click="change_image(image)" v-for="image in image_list" :fullurl="image" class="w-14 cursor-pointer hover:-translate-y-1 hover:shadow-xl transition gap-6"/>
             </div>
-            <cloud :fullurl="main_image" class="w-96" />
+            <cloud :fullurl="main_image" class="w-96 md:w-200" />
         </div>
         <div class="flex flex-row md:hidden gap-3 mt-10 grid grid-cols-5">
                 <cloud @click="change_image(image)" v-for="image in image_list" :fullurl="image" class="w-14 cursor-pointer hover:-translate-y-1 hover:shadow-xl transition gap-6"/>
