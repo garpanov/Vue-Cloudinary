@@ -38,7 +38,7 @@ watch(date, change_full_price)
 
 <template>
     <div class="fixed top-0 left-0 h-full w-full bg-black z-20 opacity-70"></div>
-    <div class="bg-white w-3/4 md:w-7/12 xl:w-2/5 2xl:w-1/4 h-full fixed right-0 top-0 z-20 p-4 md:p-8 overflow-y-scroll">
+    <div class="bg-white w-11/12 md:w-7/12 xl:w-2/5 2xl:w-1/4 h-full fixed right-0 top-0 z-20 p-4 md:p-8 overflow-y-scroll">
         <div class="flex items-center gap-5 mb-8">
             <img @click="close_druwer" src="/стрелка-корзина.png"
                 class="w-8 rotate-180 cursor-pointer opacity-40 hover:opacity-100 transition hover:-translate-x-1">

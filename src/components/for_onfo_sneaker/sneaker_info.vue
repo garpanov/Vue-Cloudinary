@@ -97,7 +97,7 @@ onMounted(async () => {
         <div class="flex flex-row md:hidden gap-3 mt-10 grid grid-cols-5">
                 <cloud @click="change_image(image)" v-for="image in image_list" :fullurl="image" class="w-14 cursor-pointer hover:-translate-y-1 hover:shadow-xl transition gap-6"/>
             </div>
-        <div class="mr-1 w-83 lg:mr-4 xl:mr-20 md:w-96 mt-10">
+        <div class="mr-1 w-82 lg:mr-4 xl:mr-20 md:w-96 mt-10">
             <div class="gap-4">
                 <h1 class="text-2xl font-bold font-sans">{{ date.sneaker_info.name }}</h1>
                 <div class="flex gap-2 opacity-70">
